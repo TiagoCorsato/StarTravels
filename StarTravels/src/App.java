@@ -33,7 +33,12 @@ public class App {
 
     private void CadastrarCliente()
     {
-
+        String nomeCliente, sobrenomeCliente;
+        Int numeroRegistro
+        nomeCliente = IO.readln("Digite o nome do cliente: ");
+        sobrenomeCliente = IO.readln("Digite o sobrenome do cliente: ");
+        numeroRegistro =IO.readln("Digite o número de registro cliente: ");
+        Cliente(nomeCliente, sobrenomeCliente, numeroRegistro);
     }
 
     private void CriarBilhete()
