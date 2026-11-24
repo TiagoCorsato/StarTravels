@@ -23,12 +23,14 @@ public class App {
 
     private void LoopPrincipal()
     {
-
+        while(MostrarMenu() != -1){
+            
+        }
     }
 
     private void ProcurarVoos()
     {
-
+        
     }
 
     private void CadastrarCliente()
