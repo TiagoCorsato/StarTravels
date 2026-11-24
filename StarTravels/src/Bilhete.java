@@ -13,7 +13,7 @@ public class Bilhete
         return true;
     }
 
-    public double calcularPrecoDeVenda()
+    public double calcularPrecoVenda()
     {
         return 1.0;
     }
